@@ -9,12 +9,63 @@ body {
 }
 /*-------- header section-------  */
 
-header ul {
+header {
   display: flex;
+}
+
+.half-width {
+  width: 50%;
+}
+
+.list-1 li {
+  font-weight: 800;
+  font-size: 24px;
   list-style: none;
 }
 
-.item-1 {
-  border: 2px solid red;
-  flex-grow: 0.5;
+.list-2 {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  font-size: 20px;
 }
+
+/*------ first section -------*/
+
+.container-first-section {
+  display: flex;
+}
+
+.influencer {
+  margin: 120px 120px 100px 120px;
+}
+
+.h1text {
+  font-size: 50px;
+}
+
+.ptext {
+  font-weight: 600;
+}
+
+.btn {
+  background-color: #e02c6d;
+  border-radius: 25px;
+  border: 1px solid white;
+  padding: 10px 44px;
+  color: white;
+}
+
+.image-camera {
+  width: 70%;
+  margin-top: 100px;
+}
+
+/*----- second section------ */
+
+.second-section-container {
+  display: flex;
+  justify-content: center;
+}
+
+/*--------- third section---- */
