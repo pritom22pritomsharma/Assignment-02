@@ -84,3 +84,36 @@ header {
   grid-template-columns: repeat(3, 1fr);
   background-color: #aaaaaa;
 }
+
+.grid-item {
+  background-color: white;
+  height: 530px;
+  width: 329px;
+  border-radius: 10px;
+  margin: 8px 0 5px 10px;
+}
+
+.grid-item img {
+  position: relative;
+  left: 14.5px;
+  top: 10px;
+}
+
+.grid-item h5,
+h4,
+span {
+  margin-left: 14.5px;
+}
+
+.grid-item h5 {
+  color: #787885;
+}
+
+.fas,
+fa-star {
+  color: orange;
+}
+
+.more-info {
+  text-align: center;
+}
