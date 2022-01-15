@@ -66,6 +66,21 @@ header {
 .second-section-container {
   display: flex;
   justify-content: center;
+  margin-bottom: 90px;
 }
 
 /*--------- third section---- */
+
+.third-section-container {
+  display: flex;
+  justify-content: center;
+}
+
+.div-section-container {
+  display: grid;
+  width: 1047px;
+  height: 1662px;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #aaaaaa;
+}
