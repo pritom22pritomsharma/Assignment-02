@@ -117,3 +117,24 @@ fa-star {
 .more-info {
   text-align: center;
 }
+
+/*------- fourth-section -------*/
+
+.fourth-section-container {
+  display: flex;
+}
+
+.fourth-section-image {
+  width: 60%;
+  position: relative;
+  left: 80px;
+  border-radius: 10px;
+}
+
+/*-----footer-section------ */
+
+.footer-section {
+  background-color: RGB(10, 8, 38);
+  color: white;
+  text-align: center;
+}
