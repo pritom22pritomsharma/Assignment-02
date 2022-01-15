@@ -7,10 +7,15 @@ body {
   font-family: "Roboto", sans-serif;
   font-family: "Roboto Mono", monospace;
 }
+
+img:hover {
+  transform: scale(1.3);
+}
 /*-------- header section-------  */
 
 header {
   display: flex;
+  background-color: whitesmoke;
 }
 
 .half-width {
@@ -58,6 +63,7 @@ header {
 
 .image-camera {
   width: 70%;
+  transition: 0.3s;
   margin-top: 100px;
 }
 
@@ -97,6 +103,7 @@ header {
   position: relative;
   left: 14.5px;
   top: 10px;
+  transition: 0.3s;
 }
 
 .grid-item h5,
@@ -129,6 +136,7 @@ fa-star {
   position: relative;
   left: 80px;
   border-radius: 10px;
+  transition: 0.3s;
 }
 
 /*-----footer-section------ */
@@ -137,4 +145,29 @@ fa-star {
   background-color: RGB(10, 8, 38);
   color: white;
   text-align: center;
+}
+
+/*--------- responsive------- */
+
+/* for smartphone max 320px */
+
+@media only screen and (max-width: 320px) {
+  .div-section-container {
+    grid-template-columns: 1fr;
+  }
+  .footer-section {
+    text-align: right;
+  }
+}
+
+/*-----for tablet------- */
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .div-section-container {
+    grid-template-columns: 1fr 1fr;
+}
+
+/* -------for desktop or laptop--------- */
+@media only screen and (min-width: 768px) {
+  .div-section-container {
+    grid-template-columns: 1fr 1fr 1fr;
 }
